@@ -67,3 +67,12 @@ model User {
   accounts      Account[]
   sessions      Session[]
 }
+
+model Item {
+  id       String   @id @default(cuid())
+  name     String
+  price    Float
+  discount Float
+  stock    Int
+  options  String[]
+}
