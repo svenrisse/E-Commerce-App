@@ -15,11 +15,11 @@ Steps:
 
 - ```bun install```
 
-- ```bun run db:push```
-
 - ```cp .env.example .env```
 
 - Add values to .env
+
+- ```bun run db:push```
 
 - ```bun run dev```
 
