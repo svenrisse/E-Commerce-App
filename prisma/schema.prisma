@@ -85,12 +85,3 @@ model Cart {
   userId String @unique
   items  Item[]
 }
-
-model Item {
-  id       String   @id @default(cuid())
-  name     String
-  price    Float
-  discount Float
-  stock    Int
-  options  String[]
-}
